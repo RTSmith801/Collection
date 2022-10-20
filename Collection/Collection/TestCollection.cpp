@@ -59,8 +59,3 @@ bool checkCase(string name, bool condition) {
 	}
 	return condition;
 }
-sout << one;
-checkCase("Overloaded Extraction Operator", sout.str() == "1 2");
-}
-bool checkCase(string name, bool condition) {
-	if (!condition) {

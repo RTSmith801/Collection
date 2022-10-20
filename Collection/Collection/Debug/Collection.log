@@ -1,0 +1,16 @@
+﻿  Collection.cpp
+z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(39): error C2059: syntax error: '}'
+z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.cpp(6): fatal error C1004: unexpected end-of-file found
+  TestCollection.cpp
+z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(39): error C2059: syntax error: '}'
+z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\testcollection.cpp(18): error C2535: 'void Collection::TestCollection(void)': member function already defined or declared
+  z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\testcollection.cpp(5): note: see declaration of 'Collection::TestCollection'
+z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\testcollection.cpp(26): error C2535: 'void Collection::TestExceedSize(void)': member function already defined or declared
+  z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\testcollection.cpp(6): note: see declaration of 'Collection::TestExceedSize'
+z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\testcollection.cpp(35): error C2535: 'void Collection::TestAddBeginning(void)': member function already defined or declared
+  z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\testcollection.cpp(7): note: see declaration of 'Collection::TestAddBeginning'
+z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\testcollection.cpp(45): error C2535: 'void Collection::TestExtractionOperator(void)': member function already defined or declared
+  z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\testcollection.cpp(8): note: see declaration of 'Collection::TestExtractionOperator'
+z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\testcollection.cpp(53): error C2061: syntax error: identifier 'string'
+z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\testcollection.cpp(62): fatal error C1004: unexpected end-of-file found
+  Generating Code...

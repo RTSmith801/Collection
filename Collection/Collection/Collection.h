@@ -26,7 +26,8 @@ protected:
 
 public:
 	//constructors
-	Collection() {};	
+	Collection();
+	Collection(int size) {}
 
 	// destructor
 	~Collection() {}
