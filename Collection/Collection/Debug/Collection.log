@@ -1,16 +1,19 @@
 ﻿  Collection.cpp
-z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(39): error C2059: syntax error: '}'
-z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.cpp(6): fatal error C1004: unexpected end-of-file found
+z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(40): error C2039: 'ostream': is not a member of 'std'
+  z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\predefined c++ types (compiler internal)(256): note: see declaration of 'std'
+z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(40): error C2143: syntax error: missing ';' before '&'
+z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(40): error C2433: 'ostream': 'friend' not permitted on data declarations
+z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(40): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+z:\visualstudio\vc\tools\msvc\14.16.27023\include\sal.h(2361): error C2059: syntax error: 'string'
+z:\visualstudio\vc\tools\msvc\14.16.27023\include\sal.h(2361): error C2143: syntax error: missing ';' before '{'
+z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(19): error C2065: 'myarray': undeclared identifier
+z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(19): error C2541: 'delete': cannot delete objects that are not pointers
+z:\visualstudio\vc\tools\msvc\14.16.27023\include\sal.h(2361): error C2447: '{': missing function header (old-style formal list?)
   TestCollection.cpp
-z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(39): error C2059: syntax error: '}'
-z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\testcollection.cpp(18): error C2535: 'void Collection::TestCollection(void)': member function already defined or declared
-  z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\testcollection.cpp(5): note: see declaration of 'Collection::TestCollection'
-z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\testcollection.cpp(26): error C2535: 'void Collection::TestExceedSize(void)': member function already defined or declared
-  z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\testcollection.cpp(6): note: see declaration of 'Collection::TestExceedSize'
-z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\testcollection.cpp(35): error C2535: 'void Collection::TestAddBeginning(void)': member function already defined or declared
-  z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\testcollection.cpp(7): note: see declaration of 'Collection::TestAddBeginning'
-z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\testcollection.cpp(45): error C2535: 'void Collection::TestExtractionOperator(void)': member function already defined or declared
-  z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\testcollection.cpp(8): note: see declaration of 'Collection::TestExtractionOperator'
-z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\testcollection.cpp(53): error C2061: syntax error: identifier 'string'
-z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\testcollection.cpp(62): fatal error C1004: unexpected end-of-file found
+z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.cpp(15): error C2533: 'Collection::{ctor}': constructors not allowed a return type
+z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(19): error C2065: 'myarray': undeclared identifier
+z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(19): error C2541: 'delete': cannot delete objects that are not pointers
+z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(41): error C2662: 'int Collection::getCapacity(void)': cannot convert 'this' pointer from 'const Collection' to 'Collection &'
+  z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(41): note: Conversion loses qualifiers
   Generating Code...

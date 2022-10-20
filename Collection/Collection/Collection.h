@@ -4,18 +4,19 @@
 class Collection{
 
 private:	
-	int defaultSize_ = 5;
+	int capacity_ = 5;
 	int arraySize_ = 0; 
+	double *myArray;
 	
 
 public:
 	//constructors
 	//Default constructor for the collection.Initializes the array to a fixed size of your choice
-	Collection() {double myArray[defaultSize_]};
+	Collection() { myArray = new double[capacity_]; }
 	Collection(int size);
 
 	// destructor
-	~Collection() {}
+	~Collection() { delete[] myarray; } // dealocate data from dynamic array. 
 
 	// static members
 	
@@ -35,8 +36,13 @@ public:
 	
 	int find(double needle);
 
-	// friend methods	
-	//friend std::ostream& operator<<(std::ostream& out, const Collection & c);
+	//overload the extraction operator to display the list.
+	friend std::ostream& operator<<(std::ostream& out, const Collection & c) {
+		int capacity = c.getCapacity();
+		for (int i = 0; i < capacity; i++) {
+			out << c.myArray[i] << std::endl;			
+		}
+	}
 
 }
 
