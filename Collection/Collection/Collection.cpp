@@ -31,7 +31,7 @@ int Collection::getSize() {
 }
 
 //returns the maximum number of elements allowed in the current array.
-int Collection::getCapacity(){
+int Collection::getCapacity() const{
 	return capacity_;	
 }
 
@@ -64,7 +64,7 @@ void Collection::add(double value) {}
 void Collection::addFront(double value) {}
 
 //returns the position of needle in the list, -1 if not found
-int Collection::find(double needle) {}
+int Collection::find(double needle) { return 0; }
 
 
 

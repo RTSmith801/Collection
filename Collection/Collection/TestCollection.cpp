@@ -1,7 +1,6 @@
 #include <iostream>
 #include <sstream>
 #include "Collection.h"
-#include "Collection.cpp"
 
 using namespace std;
 void TestCollection();
@@ -10,12 +9,11 @@ void TestAddBeginning();
 void TestExtractionOperator();
 bool checkCase(std::string name, bool condition);
 int main()
-{
-	cout << "print damn you" << endl;
-	/*TestCollection();
+{	
+	TestCollection();
 	TestExceedSize();
 	TestAddBeginning();
-	TestExtractionOperator();*/
+	TestExtractionOperator();
 	return 0;
 }
 void TestCollection() {

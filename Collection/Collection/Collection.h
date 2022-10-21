@@ -1,5 +1,6 @@
 #ifndef COLLECTION_H
 #define COLLECTION_H
+#include <iostream>
 
 class Collection{
 
@@ -16,13 +17,13 @@ public:
 	Collection(int size);
 
 	// destructor
-	~Collection() { delete[] myarray; } // dealocate data from dynamic array. 
+	~Collection() { delete[] myArray; } // dealocate data from dynamic array. 
 
 	// static members
 	
 	// getters
 	int getSize();
-	int getCapacity();
+	int getCapacity() const;
 	double get(int ndx);
 	double getFront();
 	double getEnd();
@@ -42,8 +43,9 @@ public:
 		for (int i = 0; i < capacity; i++) {
 			out << c.myArray[i] << std::endl;			
 		}
+		return out;
 	}
 
-}
+};
 
 #endif

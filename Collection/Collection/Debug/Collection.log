@@ -1,19 +1,2 @@
-﻿  Collection.cpp
-z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(40): error C2039: 'ostream': is not a member of 'std'
-  z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\predefined c++ types (compiler internal)(256): note: see declaration of 'std'
-z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(40): error C2143: syntax error: missing ';' before '&'
-z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(40): error C2433: 'ostream': 'friend' not permitted on data declarations
-z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(40): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
-z:\visualstudio\vc\tools\msvc\14.16.27023\include\sal.h(2361): error C2059: syntax error: 'string'
-z:\visualstudio\vc\tools\msvc\14.16.27023\include\sal.h(2361): error C2143: syntax error: missing ';' before '{'
-z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(19): error C2065: 'myarray': undeclared identifier
-z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(19): error C2541: 'delete': cannot delete objects that are not pointers
-z:\visualstudio\vc\tools\msvc\14.16.27023\include\sal.h(2361): error C2447: '{': missing function header (old-style formal list?)
-  TestCollection.cpp
-z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.cpp(15): error C2533: 'Collection::{ctor}': constructors not allowed a return type
-z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(19): error C2065: 'myarray': undeclared identifier
-z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(19): error C2541: 'delete': cannot delete objects that are not pointers
-z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(41): error C2662: 'int Collection::getCapacity(void)': cannot convert 'this' pointer from 'const Collection' to 'Collection &'
-  z:\desktop\weber state univesity\classes\cs 2420\assignments\01 try it out activity collection\collection\collection\collection\collection.h(41): note: Conversion loses qualifiers
-  Generating Code...
+﻿  TestCollection.cpp
+  Collection.vcxproj -> Z:\Desktop\Weber State Univesity\Classes\CS 2420\Assignments\01 Try it out Activity Collection\Collection\Collection\Debug\Collection.exe
