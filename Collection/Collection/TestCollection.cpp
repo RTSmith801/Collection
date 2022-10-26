@@ -7,6 +7,7 @@ void TestCollection();
 void TestExceedSize();
 void TestAddBeginning();
 void TestExtractionOperator();
+void TestMethods();
 bool checkCase(std::string name, bool condition);
 int main()
 {	
@@ -41,7 +42,7 @@ void TestAddBeginning() {
 	one.addFront(2);
 	checkCase("Add to Front Check 1", one.get(0) == 2);
 	checkCase("Add to Front Check 2", one.get(5) == 4);
-	checkCase("Add to Front Check 3", one.getSize() == 6);
+	checkCase("Add to Front Check 3", one.getSize() == 6);	
 }
 void TestExtractionOperator() {
 	Collection one;
